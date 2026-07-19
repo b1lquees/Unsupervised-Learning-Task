@@ -21,16 +21,9 @@ reduction, and model interpretation.
 
 | Notebook | Topic | Dataset |
 |---|---|---|
-| `Concepts.ipynb` | Foundational theory of unsupervised learning — clustering vs. dimensionality reduction, distance metrics, and small toy-data demos | Synthetic/toy data (generated in-notebook) |
+| `Concepts.ipynb` | Foundational theory of unsupervised learning — clustering vs. dimensionality reduction, distance metrics, and small toy-data demos | Synthetic data |
 | `ClusteringHAR.ipynb` | Full clustering case study: preprocessing, K-Means, Hierarchical/Agglomerative clustering, DBSCAN, Gaussian Mixture Models, Mean Shift, algorithm comparison, and model interpretation (feature importance, permutation importance, SHAP, PDP) | `data/train.csv` (HAR) |
-| `DRDigits.ipynb` | Dimensionality reduction case study on handwritten digit images (PCA, and related techniques) | `sklearn.datasets.load_digits` (built-in, no file needed) |
-
-`ClusteringHAR.ipynb` reads the dataset with a relative path, so it must be
-run from within the `notebooks/` folder (as it is laid out in this repo):
-
-```python
-har = pd.read_csv('../data/train.csv')
-```
+| `DRDigits.ipynb` | Dimensionality reduction case study on handwritten digit images (PCA, and related techniques) | `sklearn.datasets.load_digits`|
 
 ## Getting Started
 
