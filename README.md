@@ -66,9 +66,9 @@ reduction, and model interpretation.
 ## Results
 Five clustering algorithms and four dimensionality reduction methods were applied and evaluated. Their performances were compared using evaluation metrics and visualization graphs. Hyperparameters were tuned for every algorithm to improve performance.
 
-**Best Clustering Algorithms:** K-Means and Gaussian Mixture Models (highest Adjusted Rand Index ≈ 0.40 against true activity labels), narrowly ahead of Hierarchical Clustering.
+**Best Clustering Algorithms:** K-Means and Gaussian Mixture Models
 
-**Best Dimensionality Reduction Method:** UMAP (Adjusted Rand Index ≈ 0.871 against true digit labels), closely followed by t-SNE (≈ 0.781).
+**Best Dimensionality Reduction Method:** UMAP 
 
 ## Author
 Bilquees Ashfaq Jumani
