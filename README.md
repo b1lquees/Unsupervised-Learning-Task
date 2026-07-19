@@ -53,10 +53,3 @@ har = pd.read_csv('../data/train.csv')
    ```bash
    jupyter notebook notebooks/
    ```
-
-## Notes
-
-- All notebooks set a fixed `RANDOM_STATE = 42` for reproducibility.
-- `ClusteringHAR.ipynb` is the only notebook that depends on an external
-  data file (`data/train.csv`); the other two use built-in or synthetic data
-  and will run standalone.
