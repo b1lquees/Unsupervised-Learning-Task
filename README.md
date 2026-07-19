@@ -1,4 +1,4 @@
-# Unsupervised Machine Learning — Case Studies
+# Unsupervised Machine Learning
 
 A collection of notebooks covering the core concepts, algorithms, and practical
 case studies for unsupervised machine learning: clustering, dimensionality
