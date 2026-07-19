@@ -17,12 +17,6 @@ reduction, and model interpretation.
 └── README.md
 ```
 
-### `data/`
-Contains `train.csv`, the Human Activity Recognition (HAR) dataset: 561
-smartphone accelerometer/gyroscope features across 7,352 samples, labeled
-with 6 activity classes (`WALKING`, `WALKING_UPSTAIRS`, `WALKING_DOWNSTAIRS`,
-`SITTING`, `STANDING`, `LAYING`). Used by `ClusteringHAR.ipynb`.
-
 ### `notebooks/`
 
 | Notebook | Topic | Dataset |
@@ -42,14 +36,10 @@ har = pd.read_csv('../data/train.csv')
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
-   cd <repo-name>
+   https://github.com/b1lquees/Unsupervised-Learning-Task.git
+   cd Unsupervised-Learning-Task
    ```
 2. Install dependencies:
    ```bash
    pip install numpy pandas matplotlib seaborn scikit-learn scipy shap
-   ```
-3. Launch Jupyter and open any notebook in `notebooks/`:
-   ```bash
-   jupyter notebook notebooks/
    ```
