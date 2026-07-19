@@ -36,3 +36,39 @@ reduction, and model interpretation.
    ```bash
    pip install numpy pandas matplotlib seaborn scikit-learn scipy shap
    ```
+
+   ## Cluster Evaluation Metrics
+- Silhouette Score
+- Davies-Bouldin Index
+- Calinski-Harabasz Index
+- Inertia (Within-Cluster Sum of Squares)
+- Adjusted Rand Index (ARI, vs true labels)
+
+## Dimensionality Reduction Methods
+- Principal Component Analysis (PCA)
+- Kernel PCA
+- t-SNE
+- UMAP
+
+## Model Interpretation
+- Feature Importance
+- Permutation Importance
+- SHAP (SHapley Additive exPlanations)
+- Partial Dependence Plots (PDP)
+
+## Techniques Used
+- Data Cleaning
+- Data Preprocessing
+- Feature Scaling (StandardScaler)
+- Hyperparameter Tuning (Elbow Method, Silhouette Score, BIC, k-distance plot, bandwidth estimation)
+- Model Comparison
+- Cluster Visualization (before and after dimensionality reduction)
+## Results
+Five clustering algorithms and four dimensionality reduction methods were applied and evaluated. Their performances were compared using evaluation metrics and visualization graphs. Hyperparameters were tuned for every algorithm to improve performance.
+
+**Best Clustering Algorithms:** K-Means and Gaussian Mixture Models (highest Adjusted Rand Index ≈ 0.40 against true activity labels), narrowly ahead of Hierarchical Clustering.
+
+**Best Dimensionality Reduction Method:** UMAP (Adjusted Rand Index ≈ 0.871 against true digit labels), closely followed by t-SNE (≈ 0.781).
+
+## Author
+Bilquees Ashfaq Jumani
